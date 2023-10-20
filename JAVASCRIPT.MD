@@ -1,4 +1,5 @@
-2.JAVASCRIPT
+## 2.JAVASCRIPT
+```
 A->
 function reverseWordsInSentence(sentence) {
     const words = sentence.split(" ");
@@ -14,8 +15,9 @@ function reverseWord(word) {
 const inputSentence = prompt("Enter a sentence:"); 
 const reversedSentence = reverseWordsInSentence(inputSentence);
 console.log("Reversed sentence:", reversedSentence);
-
-B->
+```
+##  B->
+```
 function bubbleSortDescending(arr) {
     const n = arr.length;
     for (let i = 0; i < n - 1; i++) {
@@ -32,6 +34,7 @@ function bubbleSortDescending(arr) {
 
 const numbers = [5, 2, 9, 1, 5, 6];
 const sortedDescending = bubbleSortDescending(numbers);
+```
 
 console.log(sortedDescending);
 
