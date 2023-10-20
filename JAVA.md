@@ -1,12 +1,13 @@
-1. JAVA
-A
- import java.util.Random;
+## A. Array Shuffle
+
+```java
+import java.util.Random;
 
 public class ArrayShuffle {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7};
         shuffleArray(array);
-        
+
         for (int num : array) {
             System.out.print(num + " ");
         }
@@ -24,11 +25,10 @@ public class ArrayShuffle {
         }
     }
 }
+```
 
-
-
-
-B
+## B. ROMAN TO INT 
+```
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -71,7 +71,12 @@ public class RomanToInteger {
         return result;
     }
 }
-C.
+```
+
+
+## c Pangram
+
+```
 import java.util.Scanner;
 
 public class PangramChecker {
@@ -80,7 +85,7 @@ public class PangramChecker {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         scanner.close();
-        
+
         boolean isPangram = isPangram(input);
         System.out.println("Is the input a pangram? " + isPangram);
     }
@@ -103,3 +108,5 @@ public class PangramChecker {
         return true;
     }
 }
+
+```
